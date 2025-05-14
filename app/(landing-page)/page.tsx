@@ -1,6 +1,7 @@
 import { FeatureGrid } from "@/components/features";
 import { Hero } from "@/components/hero";
 import { HowToWork } from "@/components/howtowork";
+import { HowItWorks } from "@/components/howitworks";
 
 import { PricingGrid } from "@/components/pricing";
 import { stackServerApp } from "@/stack";
@@ -70,9 +71,20 @@ export default async function IndexPage() {
       />
 
       <HowToWork
+        title="Why Bev?"
+        description="This is a feature that will help you find reliable volunteers."
+        photo="https://img.freepik.com/free-photo/medium-shot-volunteers-with-donations_23-2149182022.jpg?semt=ais_hybrid&w=740"
+      />
+
+      <HowItWorks
         title="How it works?"
         description="This is a feature that will help you find reliable volunteers."
-        photo="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+        number1="1"
+        number2="2"
+        number3="3"
+        title1="Create a free account"
+        title2="Create a free account"
+        title3="Create a free account"
       />
 
       <div id="features" />
